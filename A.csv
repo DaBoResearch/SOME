@@ -1,0 +1,32 @@
+Number of Dependent Variables;Nature of Dependent Variable(s);Nature of Independent Variables (IV);Test(s)
+One;Categorical;Zero IVs (one population);Chi-Square Goodness-of-Fit
+;;One interval IV;Simple Logistic Regression
+;;One IV with two levels (dependent/matched groups);McNemar Test
+;;One IV with two levels (independent groups);Chi-Square Test
+;;One IV with two levels (independent groups);Fisher?s Exact Test
+;;One IV with two or more levels (dependent/matched groups);Repeated Measures Logistic Regression
+;;One IV with two or more levels (independent groups);Chi-Square Test
+;;One or more interval IVs and/or one or more categorical IVs;Discriminant Analysis
+;;One or more interval IVs and/or one or more categorical IVs;Multiple Logistic Regression
+;;Two or more IVs (independent groups);Factorial Logistic Regression
+;Categorical (2 categories);Zero IVs (one population);Binomial Test
+;Interval & normal;Zero IVs (one population);One-Sample t-Test
+;;One interval IV;Correlation
+;;One interval IV;Simple Linear Regression
+;;One IV with two levels (dependent/matched groups);Paired t-Test
+;;One IV with two levels (independent groups);Two Independent Samples t-Test
+;;One IV with two or more levels (dependent/matched groups);One-Way Repeated Measures ANOVA
+;;One IV with two or more levels (independent groups);One-Way ANOVA
+;;One or more interval IVs and/or one or more categorical IVs;Analysis of Covariance
+;;One or more interval IVs and/or one or more categorical IVs;Multiple Regression
+;;Two or more IVs (independent groups);Factorial ANOVA
+;Ordinal or interval;Zero IVs (one population);One-Sample Median
+;;One interval IV;Non-Parametric Correlation
+;;One IV with two levels (dependent/matched groups);Wilcoxon Signed Rank Sum Test
+;;One IV with two levels (independent groups);Wilcoxon-Mann Whitney Test
+;;One IV with two or more levels (dependent/matched groups);Friedman Test
+;;One IV with two or more levels (independent groups);Kruskal Wallis Test
+;;Two or more IVs (independent groups);Ordered Logistic Regression
+> One;Interval & normal;One IV with two or more levels (independent groups);One-way MANOVA
+;;> One;Multivariate Multiple Linear Regression
+> One (Two sets);Interval & normal;;Canonical Correlation
